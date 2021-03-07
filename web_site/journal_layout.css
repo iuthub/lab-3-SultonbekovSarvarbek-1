@@ -1,0 +1,52 @@
+body{
+    background-image: url('./images/background.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+* *:hover {
+	background-color: yellow;
+}
+/* content */
+.content{
+    border:10px solid rgb(255, 255, 255);
+    background-color: #fff;
+}
+
+/* header */
+.header{
+	border:5px solid #A8F0F0;
+    text-align: right;
+    background-color: #A8F0F0;
+    
+}
+.header__subtext{
+	/* border:5px solid rgb(255, 174, 0); */
+    font-size: 14pt;
+}
+/* post */
+.post{
+    border:4px solid #C2E9E9;
+    background-color:#E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+}
+.post__date{
+    /* border:5px solid rgb(108, 17, 126); */
+    border-bottom: 2px dashed #009097;
+}
+.post__img{
+    float: right;   
+}
+.post__content{
+    overflow: hidden;
+}
+.content__body{
+    overflow: hidden;
+}
+.aside{
+    float:left;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border:5px solid #009097;
+}
